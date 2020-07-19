@@ -1,0 +1,100 @@
+.body{
+  width: 100%;
+  height: 100%;
+  //background: -webkit-gradient(linear, left bottom, right top, from(#08aeea), to(#b721ff));
+  background-image: url("../assets/Icones/marble-surface-wall-white-1323712.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+nav{
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: #282828;
+  font-size: 14px;
+  color: whitesmoke;
+}
+.bloc1,.bloc2{
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+.titre1{
+  margin: auto;
+  margin-left: 5px;
+  align-self: end;
+}
+.titre2{
+  margin: auto;
+  margin-right: 5px;
+  align-items: end;
+}
+.section{
+  width: 80%;
+  height: 625px;
+  margin-left: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.menu-icone{
+  display: flex;
+  width: 90%;
+  height: 80px;
+  margin: auto;
+  margin-bottom: 10px;
+  color: whitesmoke;
+  font-weight: bold;
+  border-bottom: 1px rgb(255, 255, 255, 0.25) solid;
+}
+.menu{
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  background: url("../assets/Icones/image-menu5.png");
+  background-size: cover;
+  box-shadow: 0 5px 8px black;
+}
+.Contenu{
+  width: 100%;
+  height: 90%;
+  margin-top: 15px;
+}
+.bouton1,.bouton2,.bouton0{
+  display: flex;
+  width: 100%;
+  height: 60px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.btn-classe,.btn-eleve,a{
+  display: flex;
+  width: 100%;
+  color: whitesmoke;
+  background: none;
+  font-size: 12px;
+  font-family: Montserrat;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+a{
+  padding: 6px 6px;
+}
+svg{
+  margin: auto;
+  margin-left: 20px;
+  margin-right: 15px;
+}
+.text{
+  margin: auto;
+  margin-left: 0;
+}
+.btn-classe:hover,
+.btn-eleve:hover,
+a:hover,
+a:focus{
+  background-color: white;
+  color: #030f71;
+}
+

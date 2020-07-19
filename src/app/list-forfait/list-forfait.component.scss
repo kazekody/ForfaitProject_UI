@@ -1,0 +1,22 @@
+.body{
+  width: 95%;
+  height: 80%;
+  margin-left: 2.5%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 2px 8px black;
+}
+.forfait-Mango,.forfait-Hemle{
+  width: 100%;
+  display: flex;
+}
+
+.text{
+  margin: auto;
+  color: whitesmoke;
+  font-family: Calibri;
+  font-size: 18px;
+  font-weight: bold;
+}

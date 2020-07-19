@@ -1,0 +1,64 @@
+<div class="body">
+  <div class="contenu">
+    <span class="message">Nous allons vous aidez à déterminer le forfait qui vous convient le mieux,
+      suivant les opérateurs Mango et Hemle. Pour cela, vous allez devoir renseigner votre montant
+      de recharge, la durée du forfait voulue, ainsi que vos différentes priorités notées de 1 à 3, que
+      vous accordez au Appel, sms et data.
+    </span>
+   </div>
+   <div class="saisi">
+    <form>
+      <div class="block1">
+      <div class="sb">
+        <div class="text">
+          Priorite Sms
+        </div>
+        <div class="sb1">
+        <input type="number" required name="input1" [(ngModel)]="prioriteSms">
+        </div>
+      </div>
+      <div class="sb">
+        <div class="text">
+          Priorite Appel
+        </div>
+        <div class="sb1">
+        <input type="number" required name="input1" [(ngModel)]="prioriteAppel">
+        </div>
+      </div>
+      <div class="sb">
+        <div class="text">
+          Priorite Data
+        </div>
+        <div class="sb1">
+        <input type="number" required name="input1" [(ngModel)]="prioriteData">
+        </div>
+      </div>
+      </div>
+      <div class="block2">
+        <div class="sb">
+          <div class="text">
+           Montant
+          </div>
+          <div class="sb1">
+          <input type="number" required name="input1" [(ngModel)]="montant">
+          </div>
+        </div>
+        <div class="sb">
+          <div class="text">
+            Durée souhaitée
+          </div>
+          <div class="sb1">
+          <input type="number" required name="input1" [(ngModel)]="dure">
+          </div>
+        </div>
+        </div>
+      </form>
+   </div>
+<div class="bouton">
+   <button class="btn-valider" (click)="valider()">
+    Valider
+    <svg aria-hidden="true" width ="15" height="15" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>
+  </button>
+</div>
+</div>
+

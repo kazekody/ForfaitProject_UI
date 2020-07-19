@@ -1,0 +1,42 @@
+<div class="body">
+  <div class="forfait-Mango">
+    <table>
+      <tr>
+        <th>Nom</th>
+        <th>Sms</th>
+        <th>Appel</th>
+        <th>Data</th>
+        <th>Prix</th>
+        <th>Validité</th>
+      </tr>
+      <tr *ngFor="let forfait of listeForfait">
+        <td>{{forfait.intitule}}</td>
+        <td>{{forfait.sms}}</td>
+        <td>{{forfait.appel}}</td>
+        <td>{{forfait.data}}</td>
+        <td>{{forfait.prix}}</td>
+        <td>{{forfait.validite}}</td>
+      </tr>
+    </table>
+  </div>
+  <div class="forfait-Hemle">
+    <table>
+      <tr>
+        <th>Nom</th>
+        <th>Sms</th>
+        <th>Appel</th>
+        <th>Data</th>
+        <th>Prix</th>
+        <th>Validité</th>
+      </tr>
+      <tr *ngFor="let forfait of listeForfait">
+        <td>{{forfait}}</td>
+        <td>{{forfait}}</td>
+        <td>{{forfait}}</td>
+        <td>{{forfait}}</td>
+        <td>{{forfait}}</td>
+        <td>{{forfait}}</td>
+      </tr>
+    </table>
+  </div>
+   </div>

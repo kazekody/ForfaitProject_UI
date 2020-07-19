@@ -1,0 +1,73 @@
+.body{
+  width: 90%;
+  height: 100%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 2px 8px black;
+  align-items: center;
+}
+.message{
+  font-size: 18px;
+  margin: auto;
+  font-family: Montserrat;
+  color: #555;
+}
+.contenu,.saisi{
+  margin-top: 50px;
+  align-items: center;
+}
+.text{
+  margin: auto;
+  color: whitesmoke;
+  font-family: Calibri;
+  font-size: 18px;
+  font-weight: bold;
+}
+.block1,.block2{
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.sb{
+margin-right: 30px;
+}
+input{
+  //margin: auto;
+  background: hsl(205, 44%, 77%);
+  width: 130px;
+  line-height: 40px;
+  border-radius: 5px;
+  border: none;
+  padding: 0 22px;
+  font-size: 16px;
+  color: #555
+}
+input:focus, select:focus{
+  outline: none;
+  border: none;
+}
+.text{
+  font-family: Calibri;
+  height: 18px;
+  width: 100px;
+  font-size: 16px;
+  color: #555;
+  font-weight: 700;
+  margin-right: 60px;
+  margin-top: 15px;
+}
+.btn-valider{
+  width: 150%;
+  height: 35px;
+  border-radius: 20px;
+  border: 1px #01ad01 solid;
+  background-color: #01ad01;
+  color: whitesmoke;
+  font-family: Calibri;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 0;
+}

@@ -1,0 +1,46 @@
+<div class="body">
+  <div class="contenu">
+   <span class="message">La meilleure combinaison de forfait selon vos besoins et vos contraintes est la suivante:</span>
+   <span class="message">Selon l'opérateur Hemle : </span>
+   <table>
+     <tr>
+       <th>Intitule</th>
+       <th>SMS</th>
+       <th>Data</th>
+       <th>Appel</th>
+       <th>Prix</th>
+       <th>Validite</th>
+     </tr>
+     <tr tr *ngFor="let forfait of listForfaitH">
+      <td>{{forfait.intitule}} </td>
+      <td>{{forfait.sms}}</td>
+      <td>{{forfait.data}} Mo</td>
+      <td>{{forfait.appel}} h</td>
+      <td>{{forfait.prix}} Fcfa</td>
+      <td>{{forfait.validite}} jours</td>
+    </tr>
+   </table>
+   <span class="message">Selon l'opérateur Mango : </span>
+   <table>
+     <tr>
+       <th>Intitule</th>
+       <th>SMS</th>
+       <th>Data</th>
+       <th>Appel</th>
+       <th>Prix</th>
+       <th>Validite</th>
+     </tr>
+     <tr tr *ngFor="let forfait of listForfaitM">
+      <td>{{forfait.intitule}}</td>
+      <td>{{forfait.sms}}</td>
+      <td>{{forfait.data}} Mo</td>
+      <td>{{forfait.appel}} h</td>
+      <td>{{forfait.prix}} Fcfa</td>
+      <td>{{forfait.validite}} jours</td>
+    </tr>
+   </table>
+  </div>
+  <div class="button">
+    <a href="http://localhost:4200"><span class="text">OK</span></a>
+  </div>
+   </div>

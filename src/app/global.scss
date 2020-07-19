@@ -1,0 +1,12 @@
+@font-face {
+  font-family: Montserrat;
+  src: url('/assets/Fonts/Montserrat-Regular.ttf') format("truetype");
+}
+html,body{
+  margin: 0;
+  padding: 0;
+  //width: 100vw;
+  height: 680px;
+  list-style: none;
+  font-family: Montserrat;
+}

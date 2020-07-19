@@ -1,0 +1,85 @@
+<div class="body">
+  <div class="img">
+
+  </div>
+  <div class="form">
+<div class="head">
+  <span class="titre">AJOUT NOUVEAU FORFAIT</span>
+</div>
+  <div class="formulaire">
+    <form>
+      <div class="block1">
+      <div class="sb">
+        <div class="text">
+          Intitulé
+        </div>
+        <div class="sb1">
+        <input type="text" required name="input1" [(ngModel)]="intitule">
+        </div>
+      </div>
+      <div class="sb">
+        <div class="text">
+          Appel
+        </div>
+        <input type="number" required name="input3" [(ngModel)]="appel">
+        <div class="sb1">
+        </div>
+      </div>
+    </div>
+    <div class="block2">
+      <div class="sb">
+        <div class="text">
+          Sms
+        </div>
+        <input type="number" required name="input3" [(ngModel)]="sms">
+        <div class="sb1">
+        </div>
+      </div>
+      <div class="sb">
+        <div class="text">
+          Data
+        </div>
+        <input type="number" required name="input3" [(ngModel)]="data">
+        <div class="sb1">
+        </div>
+      </div>
+    </div>
+    <div class="block3">
+      <div class="sb">
+        <div class="text">
+          Prix
+        </div>
+        <input type="number" required name="input3" [(ngModel)]="prix">
+        <div class="sb1">
+        </div>
+      </div>
+      <div class="sb">
+        <div class="text">
+         Validité
+        </div>
+        <div class="sb1">
+        <input type="number" required name="input3" [(ngModel)]="validite">
+        </div>
+      </div>
+    </div>
+      <div class="bouton">
+        <div class="bouton1">
+        <button class="btn-annuler" (click)="Annuler()">
+          Annuler
+          <svg aria-hidden="true" width ="16" height="16" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+        </button>
+        </div>
+        <div class="bouton2">
+        <button class="btn-valider" (click)="Valider()">
+          Valider
+          <svg aria-hidden="true" width ="15" height="15" focusable="false" data-prefix="fas" data-icon="check" class="svg-inline--fa fa-check fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>
+        </button>
+        </div>
+      </div>
+
+    </form>
+  </div>
+  </div>
+</div>
+
+
